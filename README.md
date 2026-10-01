@@ -1,5 +1,7 @@
 # Android Learning Lab
 
+![Project identity banner](docs/cover.svg)
+
 A collection of small C# and XML Android exercises from a legacy Xamarin project. Source previously available only inside `Ofek_Ventura_Android.zip` is now reviewable in `Android_Ofek/`, excluding IDE state and build outputs. The ZIP remains a historical snapshot; use the extracted project for current code changes.
 
 ## Real contents
