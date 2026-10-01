@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+	<item android:id="@+id/action_Settings"
+            android:title="Settings"
+            android:orderInCategory="100"
+        
+       />
+	<item android:id="@+id/action_Time"
+        android:title="Time Picker"
+        android:orderInCategory="200"
+        
+       />
+
+	<item android:id="@+id/action_Date"
+    android:title="Date Picker"
+    android:orderInCategory="200"
+        
+       />
+
+	<item android:id="@+id/action_Progress"
+    android:title="Progress dialog"
+    android:orderInCategory="200"
+        
+       />
+
+
+
+	<item android:id="@+id/action_exit2"
+	android:showAsAction="never"
+	android:title="Exit"
+	android:orderInCategory="300"/>
+</menu>

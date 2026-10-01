@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/regbackground">
+
+
+    <Button
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="50dp"
+        android:text="Return To Main"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#fff"
+        android:textColor="#000"
+        android:id="@+id/FromCamToMain"     />
+    <Button
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="50dp"
+        android:text="Take A Pic"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#fff"
+        android:textColor="#000"
+        android:id="@+id/btnPic"     />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/ivPic"/>
+</LinearLayout>

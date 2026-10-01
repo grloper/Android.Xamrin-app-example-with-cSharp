@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/regbackground">
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/max"
+        android:id="@+id/ivEdit" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etTitleEdit"
+        android:textSize="20sp"
+        android:hint= "title"
+        android:textColorHint="#fff"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#0039e6" 
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSubTitleEdit"
+        android:textSize="20sp"
+        android:hint= "subtitle"
+        android:textColorHint="#fff"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#80ff00" 
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etLocationEdit"
+        android:textSize="20sp"
+        android:textColorHint="#fff"
+        android:hint= "Location"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#80ff00" 
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPriceEdit"
+        android:textSize="20sp"
+        android:hint= "Price"
+        android:inputType="number"
+        android:textColorHint="#fff"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#80ff00" 
+        />
+    <Button
+        android:id="@+id/btnAddPictureEdit"
+        android:textSize="20sp"
+        android:text= "Add Picture"
+        android:textColor="#ffff"
+        android:backgroundTint="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btnSaveEdit"
+        android:textSize="20sp"
+        android:text= "Save"
+        android:textColor="#ffff"
+        android:backgroundTint="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

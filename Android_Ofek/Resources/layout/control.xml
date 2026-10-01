@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:background="@drawable/regbackground"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" https:// OR phone 054-1234567 OR map OR mail"
+        android:id="@+id/etWebAddrOrPhoneNum"
+        android:textSize="20dp"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:background="@drawable/et_border"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnWeb"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text="Go URL"
+        android:backgroundTint="#fff"
+        android:textColor="#000"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDail"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text="Make a call"
+        android:backgroundTint="#fff"
+        android:textColor="#000"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnYoutube"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Youtube"
+        android:backgroundTint="#fff"
+        android:textColor="#000"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMap"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text="Go map"
+        android:backgroundTint="#fff"
+        android:textColor="#000"
+    />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="subject"
+        android:id="@+id/etSubject"
+        android:textSize="20sp"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:background="@drawable/et_border"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+    />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="sms / mail content"
+        android:id="@+id/etContent"
+        android:textSize="20sp"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:background="@drawable/et_border"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSendEmail"
+        android:textSize="15sp"
+        android:backgroundTint="#fff"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text="Send Email"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSendSms"
+        android:textSize="15sp"
+        android:backgroundTint="#fff"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text="Send SMS"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FromControlToMain"
+        android:textSize="15sp"
+        android:backgroundTint="#fff"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text="Back To Main"
+        />
+</LinearLayout>
