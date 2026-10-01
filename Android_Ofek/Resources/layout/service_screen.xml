@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/regbackground"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music Menu"
+        android:textSize="30sp"
+        android:fontFamily="casual"
+        android:background="@drawable/btn_border"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/btn_border"
+        android:gravity="center"
+        android:layoutDirection="ltr">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Off"
+            android:textSize="30sp"
+            android:fontFamily="serif"
+            android:layout_gravity="center"
+        
+        />
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:id="@+id/switch1"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="On"
+            android:textSize="30sp"
+            android:fontFamily="serif"
+            android:layout_gravity="center"        
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn123"
+            android:text="Restart Song"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#94f"
+            android:fontFamily="casual"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/FromMusicToMain"
+            android:text="Return To Menu"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#94f"
+            android:fontFamily="casual"/>
+
+    </LinearLayout>
+</LinearLayout>

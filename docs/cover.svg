@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Android Learning Lab</title>
+  <desc id="desc">Project identity banner. Legacy Android source with offline logic checks, not an app screenshot.</desc>
+  <rect width="1200" height="320" rx="20" fill="#222b4c"/>
+  <g fill="none" stroke="#a4b8ff" stroke-width="2" opacity=".22">
+    <circle cx="1080" cy="158" r="126"/><circle cx="1080" cy="158" r="88"/><circle cx="1080" cy="158" r="50"/>
+    <path d="M930 158h300M1080 8v300"/>
+  </g>
+  <rect x="58" y="52" width="160" height="28" rx="14" fill="#a4b8ff"/>
+  <text x="78" y="71" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#222b4c">PROJECT NOTES</text>
+  <text x="58" y="151" font-family="Arial,sans-serif" font-size="54" font-weight="700" fill="#ffffff">Android Learning Lab</text>
+  <text x="60" y="194" font-family="Arial,sans-serif" font-size="23" fill="#a4b8ff">Small experiments with real platform APIs.</text>
+  <text x="60" y="267" font-family="Arial,sans-serif" font-size="15" letter-spacing="1" fill="#dae0e5">LEGACY ANDROID / INSPECTED SOURCE / OFFLINE LOGIC CHECKS</text>
+</svg>

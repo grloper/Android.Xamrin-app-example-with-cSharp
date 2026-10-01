@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6ECD6"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stats"
+        android:textSize="40dp"
+        android:fontFamily="cursive"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X Wins:"
+        android:textSize="40dp"
+        android:fontFamily="serif-monospace"
+        android:id="@+id/tvX"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O Wins: "
+        android:textSize="40dp"
+        android:fontFamily="serif-monospace"
+        android:id="@+id/tvO"
+
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ties: "
+        android:textSize="40dp"
+        android:fontFamily="serif-monospace"
+        android:id="@+id/tvTies"
+
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clicks: "
+        android:textSize="40dp"
+        android:fontFamily="serif-monospace"
+        android:id="@+id/tvClicks"
+
+        />
+
+
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:backgroundTint="#ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:onClick="ButtonClick"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnClearStats"
+        android:text="Clear"
+        android:fontFamily="serif"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:backgroundTint="#ffffff"
+        android:background="@drawable/btn_border"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:onClick="ButtonClick"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnFromStatToXo"
+        android:text="Back"
+        android:fontFamily="serif"
+        />
+</LinearLayout>

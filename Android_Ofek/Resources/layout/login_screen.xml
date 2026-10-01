@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/regbackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#fff"
+        
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="  Username"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:fontFamily="serif"
+        android:gravity="center_vertical"
+        android:textDirection="ltr"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/etUserLog"
+        android:background="@drawable/et_border"        />
+
+    <EditText
+        android:fontFamily="serif"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:textColorHint="#fff"
+        android:layout_gravity="center_horizontal"
+        android:hint="  Password"
+        android:textColor="#fff"
+        android:gravity="center_vertical"
+        android:password="true"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:id="@+id/etPassLog"
+        android:background="@drawable/et_border"/>
+
+    <TextView
+        android:fontFamily="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create An Account"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:textColor="#fff"
+        android:onClick="onRegister"
+        android:textSize="20dp"/>
+
+    <Button
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:text="show password"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#fff"
+        android:textColor="#000"
+        android:id="@+id/btnEyeLog"
+       />
+
+    <Button
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#fff"
+        android:textColor="#000"
+        android:id="@+id/btnSubmitLog" 
+        
+/>
+    <Button
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Return to menu"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#fff"
+        android:textColor="#000"
+        android:id="@+id/btnFromLogToMain" 
+        
+/>
+    <TextView
+        android:fontFamily="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textColor="#fff"
+        android:text="Password Must Contain:"
+        android:gravity="center"/>
+    <TextView
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff00"
+        android:id="@+id/min8Log"
+        android:text="Minimum 8 characters"/>
+    <TextView
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff00"
+        android:id="@+id/ucLog"
+        android:text="A Uppercase Letter"/>
+    <TextView
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff00"
+        android:id="@+id/anLog"
+        android:text="A Number"/>
+
+
+
+</LinearLayout>
